@@ -5,3 +5,9 @@ for (let i = 0; i < 10; i++) {
 }
 
 console.log(arr)
+
+setInterval(() => {}, 1000)
+
+const a = 100
+
+arr.push('First')
