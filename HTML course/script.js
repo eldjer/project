@@ -1,5 +1,11 @@
-const arr = ['afs2', 'sdfsdf', 'fff', '1']
+const set = new Set([1, 2, 2, 3, 4, 4, 5, 6, 6])
 
-const num = arr.find('1')
+set.add(8).add(10)
+console.log(set.size)
 
-console.log(num)
+set.delete(1)
+
+console.log(set)
+
+set.clear()
+console.log(set)
